@@ -1,11 +1,26 @@
+body{
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
 .square{
-  font-size: 50px;
-  font-weight: 100;
+  border: 1px solid #999;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  font-size: 65px;
+  font-weight: bold;
   text-align: center;
-  background-color: white;
+  background-color: #fff;
   width: 100px;
   height: 100px;
 }
-.board-row{
-  
+
+border-row:after{
+  clear: both;
+  content: '';
+  display: table;
 }
+
